@@ -1,0 +1,115 @@
+:root {
+  --white: #fff;
+  --black: #000;
+
+  /* Primary colors*/
+  --primary-1: #2b8379;
+  --primary-2: #19a596;
+  --primary-3: #7fd1c7;
+  --primary-4: #7fd1c7;
+  --primary-5: #d0f3ef;
+
+  /* Neutral colors */
+  --neutral-1: #2c2c2c;
+  --neutral-2: #434343;
+  --neutral-3: #94868b;
+  --neutral-4: #d9cfd3;
+  --neutral-5: #f2ecee;
+
+  /* Accent-blue colors */
+  --accent-1: #970e3d;
+  --accent-2: #c43464;
+  --accent-3: #de7699;
+  --accent-4: #e6c3ce;
+  --accent-5: #fff2f7;
+}
+
+body {
+  background-color: var(--neutral-5);
+  margin: 0;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.07),
+    0px -3px 7px 1px rgba(0, 0, 0, 0.07);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.nav-brand {
+  font-weight: 450;
+  text-decoration: none;
+  padding-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: initial;
+}
+
+.textbox {
+  border: 0;
+  min-width: 500px;
+  padding: 15px 10px;
+  font-size: 16px;
+  min-height: 5px;
+  border-radius: 3px;
+  transition: opacity 200ms ease-out;
+  box-shadow: 2px 5px 2px rgba(0, 0, 0, 0.2);
+  margin: 5px;
+}
+
+.label {
+  font-weight: bold;
+  display: block;
+  margin: 15px 20px;
+}
+
+/* BUTTONS */
+.btn {
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  border: 2px solid #89a8e9;
+  margin-bottom: 1px;
+  text-decoration: none;
+  color: #56a5eb;
+  background-color: white;
+}
+
+/* .btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(2, 51, 75, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+} */
+
+/* .btn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+} */
+
+table {
+  width: 99%;
+  color: #212529;
+  border-collapse: collapse;
+}
+
+table th {
+  color: black;
+  background-color: var(--dark);
+  border-color: #454d55;
+  padding: 0.75rem;
+  vertical-align: middle;
+}
+table td {
+  text-align: center;
+  padding: 0.75rem;
+}
+table tr:nth-of-type(even) td {
+  background-color: rgba(0, 0, 0, 0.08);
+}
